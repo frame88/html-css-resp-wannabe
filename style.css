@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-top: 0;
+
+}
+
+#lezioni .row>.right, #lezioni .row>.left {
+  float: none;
+  margin: auto;
+}
+
+.container {
+  background: #eff0ac;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -92,3 +92,12 @@ img {
   background: #eff0ac;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#steps .row>.left,#steps .row>.central,#steps .row>.right {
+  float: none;
+  margin: auto;
+}
+
+#why .container.grey {
+  background: #eff0ac;
+}

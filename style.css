@@ -81,7 +81,6 @@ img {
 
 .row {
   margin-top: 0;
-
 }
 
 #lezioni .row>.right, #lezioni .row>.left {
@@ -109,6 +108,25 @@ img {
     background: red;
     margin: auto;
     float: none;
+  }
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  .row {
+  margin-top: 0;
+  }
+
+  #lezioni .row>.right, #lezioni .row>.left {
+  float: none;
+  margin: auto;
+  }
+
+  #why .container.grey {
+  background: #eff0ac;
   }
 }
 
